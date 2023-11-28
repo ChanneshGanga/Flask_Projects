@@ -1,0 +1,24 @@
+{
+  "params":
+  {
+    "local_server":"True",
+    "local_uri": "mysql://root:@localhost:3306/codingthunder?unix_socket=/opt/lampp/var/mysql/mysql.sock",
+    "prod_uri":"mysql://root:@localhost/codingthunder",
+    "fb_url":"https://facebook.com/codingthunder",
+    "tw_url":"https://twitter.com/codingthunder",
+    "gh_url": "https://github.com/codingthunder",
+    "blog_name": "Coding Thunder",
+    "tag_line": "Heaven for programmers",
+    "gmail-user":"channeshgangawork@gmail.com",
+    "gmail-password":"",
+    "about_text": "Hi my name is harry and I create programming tutorials and I am a good boy",
+    "no_of_posts": 3,
+    "login_image":"login.svg",
+    "admin_user":"channeshganga",
+    "admin_password": "flask123",
+    "upload_location":"/home/channeshganga/Desktop/Flask practice/static"
+
+
+  }
+
+}

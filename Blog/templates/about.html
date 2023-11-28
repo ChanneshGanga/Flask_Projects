@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/about-bg.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>About Us</h1>
+              <span class="subheading">This is what we do.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Welcome to Coding Thunder, a vibrant community where words come to life. I'm Channesh Ganga, the creator and curator of this digital haven for passionate writers, storytellers, and creators. As an avid believer in the power of words to inspire, inform, and connect, I established this platform to provide a space where individuals from diverse backgrounds can share their unique perspectives, experiences, and creativity. Whether you're a seasoned wordsmith or someone just discovering the joy of expressing thoughts through writing, Coding Thunder is your canvas.</p>
+
+          <p>  At Coding Thunder, we celebrate the art of blogging as a medium for self-expression, learning, and growth. Our user-friendly interface empowers you to effortlessly post and edit your blogs, ensuring that your voice is heard and your stories are told just the way you envision them. Join our growing community of contributors who, like you, are passionate about making a meaningful impact through the written word. Let's embark on this exciting journey together, where every post is a brushstroke on the canvas of our shared digital narrative. Together, we weave a tapestry of diverse stories, ideas, and insights that make [Your Blog Name] a dynamic and welcoming space for all who love the magic of storytelling.</p>
+        </div>
+      </div>
+    </div>
+
+   {% endblock %}

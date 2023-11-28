@@ -1,0 +1,13 @@
+11:136 {pr11: Array(3)} 'avcs' '11'
+11:140 <span id=​"divpr11" class=​"divpr">​…​</span>​
+11:144 <button id="minuspr11" class="btn btn-primary minus">-</button> <span id="valpr11" '="">3</span> <button id="pluspr11" class="btn btn-primary plus"> + </button>
+11:148 {pr11: Array(3)}
+11:117 We are inside updatePopover
+11:123 <span id=​"divpr11" class=​"divpr">​…​</span>​
+11:126 Uncaught TypeError: Cannot read properties of null (reading 'innerHTML')
+    at updatePopover (11:126:65)
+    at updateCart (11:149:5)
+    at 11:98:5
+updatePopover @ 11:126
+updateCart @ 11:149
+(anonymous) @ 11:98
